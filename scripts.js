@@ -1,4 +1,4 @@
-function funcao1()
+function insert (num)
 {
-alert("Eu sou um alert!");
+    document.getElementById('resultado').innerHTML = num;
 }
